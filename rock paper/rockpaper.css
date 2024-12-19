@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+}
+.pic:hover{
+    opacity: 0.5;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.images img{
+    
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    border-radius: 50%;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:1.5rem
+}
+.your-score{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.computer-score{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.message{
+    
+   font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px sollid black;
+   
+}
