@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.innercircle{
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.time{
+    font-size: 50px;
+}
+.but{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    
+}
+.but button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: skyblue;
+}
+button:hover{
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.loops{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    
+
+}
+.rect{
+      height: 30px;
+      width: 75%;
+      border: 1px solid white;
+      border-radius: 15px;
+      margin-top: 20px;
+      color: white;
+      font-size: 20px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      display: none;
+ } 
+.clear{
+    display: flex;
+    justify-content: center;
+}
+.clear button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: skyblue;
+    margin-top: 30px;
+}
+.hidden{
+    visibility: hidden;
+}
